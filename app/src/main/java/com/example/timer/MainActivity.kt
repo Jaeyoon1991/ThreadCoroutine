@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     var total = 0
     var started = false
 
-    //타임 처리 핸들러
+    //타임 처리 핸들러_수정테스트
     val handler = object : Handler(Looper.getMainLooper()){
         override fun handleMessage(msg: Message) {
             val minute = String.format("%02d", total/60)
